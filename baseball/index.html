@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="baseballGameBox">
+        <h1>⚾️ 숫자 야구 게임</h1>
+        <p>
+        <div><b>1~9까지의 수</b>를 중복없이 <b>3개</b>를 작성해주세요.</div>
+        <div>올바른 예) 139</div>
+        <div>틀린 예) 122</div>
+        </p>
+
+
+        <input type="number" name="baseballNumber" id="baseballNumber"> <button class="baseballNumberConfirmBtn"
+            type="submit">확인</button>
+
+        <h2>📄 결과</h2>
+        <div class="answer"></div>
+        <button class="hidden" id="game-restart-button">재시작</button>
+    </section>
+
+    <script src="/js/baseball.js"></script>
+</body>
+
+</html>
